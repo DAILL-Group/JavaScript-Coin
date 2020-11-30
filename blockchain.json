@@ -1,0 +1,11 @@
+{
+     
+     "defaultBlockTransactions": "5000",
+     "defaultBlockTime": "15",
+     "defaultPoaBlockReward": "5",
+     "defaultPosBlokReward": "5",
+     "defaultPowBlockReward": "5",
+     "defaultMaxCoins": "10000000",
+     "defaultMaxPools": "20",
+     "defaultMaxWallets": "1.069797e+196"
+}
