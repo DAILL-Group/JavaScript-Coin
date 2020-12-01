@@ -5,23 +5,43 @@ var net = require("net");
 var url = require("url");
 
 
-var block = require("./files/blocks/defaultBlock.json");
-var blockchain = require("./files/blockchains/defaultBlockchain.json");
-var config = require("./files/configs/defaultConfig.json");
+var blockConfig = require("./files/block/block.json");
+var blockJs = require("./files/block/block.js");
+var blockchainConfig = require("./files/blockchain/blockchain.json");
+var blockchainJs = require("./files/blockchain/blockchain.js");
+var defaultConfig = require("./files/configs/defaultConfig.json");
 
 
 var httpServer = http.createServer(function (httpReq, httpRes) => {
      
+     var httpPage = url.parse(req.res).pathname;
      
+     if (httpPage == "/home") {
+          
+          httpPage.writeHead(200, {"Content-Type": "text/html"});
+          httpPage.write("");
+          
+     }
      
 });
 
-httpServer.listen(8080);
+httpServer.listen(defaultConfig.httpServer.port);
 
 var httpsServer = https.createServer(function (httpsReq, httpsRes) => {
      
+     var httpsPage = url.parse(req.res).pathname;
      
+     if (httpsPage == "/home") {
+          
+          httpsPage.writeHead(200, {"Content-Type": "text/html"});
+          httpsPage.write();
+          
+     }
      
 });
 
-httpsServer.listen(8181);
+httpsServer.listen(defaultConfig.httpsServer.port);
+
+var netServer = net.createServer();
+
+netServer.listen(defaultConfig.netServer.port);
