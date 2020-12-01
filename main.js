@@ -14,7 +14,7 @@ var defaultConfig = require("./files/configs/defaultConfig.json");
 
 var httpServer = http.createServer(function (httpReq, httpRes) => {
      
-     var httpPage = url.parse(req.res).pathname;
+     var httpPage = url.parse(httpReq.httpRes).pathname;
      
      if (httpPage == "/home") {
           
@@ -29,7 +29,7 @@ httpServer.listen(defaultConfig.httpServer.port);
 
 var httpsServer = https.createServer(function (httpsReq, httpsRes) => {
      
-     var httpsPage = url.parse(req.res).pathname;
+     var httpsPage = url.parse(httpsReq.httpsRes).pathname;
      
      if (httpsPage == "/home") {
           
