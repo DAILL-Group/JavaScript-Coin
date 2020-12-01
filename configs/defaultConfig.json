@@ -1,0 +1,25 @@
+{
+     
+     "httpServer": {
+          
+          "maxConnections": "10000",
+          "port": "8080",
+          "protocol": "IPv4"
+          
+     },
+     "httpsServer": {
+          
+          "maxConnections": "10000",
+          "port": "8181",
+          "protocol": "IPv4"
+          
+     },
+     "netServer": {
+          
+          "maxConnections": "25000",
+          "port": "40000",
+          "protocol": "IPv4"
+          
+     }
+     
+}
