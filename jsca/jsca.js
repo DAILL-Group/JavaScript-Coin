@@ -43,6 +43,44 @@ var n33 = 6;
 var n34 = 7;
 var n35 = 8;
 var n36 = 9;
+var ne1 = "h";
+var ne2 = "i";
+var ne3 = "j";
+var ne4 = "k";
+var ne5 = "l";
+var ne6 = "m";
+var ne7 = "n";
+var ne8 = "o";
+var ne9 = "p";
+var ne10 = "q";
+var ne11 = "r";
+var ne12 = "s";
+var ne13 = "t";
+var ne14 = "u";
+var ne15 = "v";
+var ne16 = "w";
+var ne17 = "x";
+var ne18 = "y";
+var ne19 = "z";
+var ne20 = "0";
+var ne21 = "1";
+var ne22 = "2";
+var ne23 = "3";
+var ne24 = "4";
+var ne25 = "5";
+var ne26 = "6";
+var ne27 = "7";
+var ne28 = "8";
+var ne29 = "9";
+var ne30 = "a";
+var ne31 = "b";
+var ne32 = "c";
+var ne33 = "d";
+var ne34 = "e";
+var ne35 = "f";
+var ne36 = "g";
+
+var datasEncoded = "";
 
 function jsca() {
      
