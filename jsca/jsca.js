@@ -1,6 +1,10 @@
 var fs = require("fs");
 
 
+var datasDecodedFile = require("../datas/datasDecoded.txt");
+     var dD = datasDecodedFile.dE;
+var datasEncodedFile = require("../datas/datasEncoded.txt");
+     var dE = datasEncodedFile.dE;
 var datasToEncodeFile = require("../datas/datasToEncode.txt");
      var dTE = datasToEncodeFile.dTE;
 var datasToDecodeFile = require("../datas/datasToDecode.txt");
