@@ -1,12 +1,35 @@
 {
      
-     "defaultBlockTransactions": "5000",
-     "defaultBlockTime": "15",
-     "defaultPoaBlockReward": "5",
-     "defaultPosBlokReward": "5",
-     "defaultPowBlockReward": "5",
-     "defaultMaxCoins": "10000000",
-     "defaultMaxPools": "20",
+     "actualBlockDifficulty": 7,
+     "actualBlockTransactions": 5000,
+     "actualBlockTime": 15,
+     "actualPoaBlockReward": 1,
+     "actualPosBlockReward": 1,
+     "actualPowBlockReward": 1,
+     "actualMaxCoins": 10000000,
+     "actualMaxPools": 20,
+     "actualMaxWallets": "",
+     "blockchain": {
+          
+          "block0": {
+               
+               "blockTransactions": {
+                    
+                    "transaction1": {}
+                    
+               }
+               
+          }
+          
+     },
+     "defaultBlockDifficulty": 7,
+     "defaultBlockTransactions": 5000,
+     "defaultBlockTime": 15,
+     "defaultPoaBlockReward": 1,
+     "defaultPosBlokReward": 1,
+     "defaultPowBlockReward": 1,
+     "defaultMaxCoins": 10000000,
+     "defaultMaxPools": 20,
      "defaultMaxWallets": "1.069797e+196"
      
 }
