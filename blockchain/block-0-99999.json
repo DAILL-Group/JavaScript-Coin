@@ -1,5 +1,23 @@
 {
      
-     
+     "block0": {
+          
+          "mined": 1,
+          "minedBy": "",
+          "poaReward": 1,
+          "posReward": 1,
+          "powReward": 1,
+          "totalTransactions": "1",
+          "transactions": {
+               
+               "transaction1": {
+                    
+                    
+                    
+               }
+               
+          }
+          
+     }
      
 }
