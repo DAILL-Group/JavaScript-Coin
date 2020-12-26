@@ -14,4 +14,5 @@ Actual Max Coins           | 10 000 000         |
 Fondation  Coins           | 500 000            |
 Block POA Reward           | 1                  |
 Block POS Reward           | 1                  |
+Block POT                  | ✔️
 Block POW Reward           | 1                  |
